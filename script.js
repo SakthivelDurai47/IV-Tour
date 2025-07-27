@@ -13,3 +13,9 @@ function clicked(num) {
     clipboard[num].innerHTML = "";
   }, 550);
 }
+
+document.querySelectorAll(".nav-link").forEach(function (tab) {
+  tab.addEventListener("shown.bs.tab", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
