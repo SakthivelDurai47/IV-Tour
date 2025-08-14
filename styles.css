@@ -1,0 +1,97 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-image: url("images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #222;
+  margin-bottom: 80px;
+}
+#plan {
+  max-width: 700px;
+  margin: auto;
+}
+.nav-link {
+  color: white !important;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+/* Limit all containers to 700px and center them */
+.container {
+  max-width: 700px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav .container {
+  max-width: 800px !important;
+
+  margin-left: auto !important;
+  margin-right: auto !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.nav-link.active {
+  color: #198754 !important;
+  background-color: white !important;
+  transform: scale(1) !important;
+}
+
+.bi-clipboard {
+  color: #198754;
+  background-color: rgba(128, 128, 128, 0.167);
+  padding: 4px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease;
+}
+.bi-clipboard:hover {
+  cursor: pointer;
+}
+
+.bi-clipboard:active {
+  opacity: 0.5;
+}
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.timeline-inside {
+  border-left: 3px solid #198754;
+  padding-left: 25px;
+  position: relative;
+}
+.timeline-step {
+  position: relative;
+  margin-bottom: 20px;
+}
+.timeline-step:last-child {
+  margin-bottom: 0;
+}
+.timeline-step .dot {
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background-color: #198754;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-shadow: 0 0 0 3px #19875433;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#images {
+  max-width: 700px;
+  margin: auto;
+}
